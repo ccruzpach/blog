@@ -1,0 +1,50 @@
+=> [34;4mIlluminate\Database\Eloquent\Collection[39;24m {#4567
+     [34mall[39m: [
+       [34;4mApp\Models\Post[39;24m {#4569
+         [34mid[39m: [35m1[39m,
+         [34mtitle[39m: "[32mMy First Post[39m",
+         [34mexcerpt[39m: "[32mLorem ipsum dolor sit amet, consectetur adipiscing elit[39m",
+         [34mbody[39m: "[32mLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque auctor tincidunt sapien et sagittis. Nullam dictum urna a ante vulputate, ut dapibus ipsum laoreet. Donec non rutrum nisi. Donec scelerisque tellus vitae ipsum volutpat feugiat vel vel nisl. Vivamus et magna metus. Nunc sed elit vel lacus congue placerat. Mauris tristique nisi id mauris hendrerit, vel cursus ligula eleifend. Quisque congue elit quis dolor porttitor, vel luctus libero porta. Proin erat augue, euismod vitae velit sit amet, ultricies blandit metus. Etiam ultricies auctor nibh at mollis. Ut facilisis, neque at cursus egestas, velit diam egestas lorem, eu faucibus tortor augue pharetra nibh. Ut sollicitudin erat velit, ac egestas libero porttitor sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum facilisis scelerisque nisi nec aliquet. Nulla molestie condimentum venenatis.[39m",
+         [34mcreated_at[39m: "[32m2022-09-30 03:12:50[39m",
+         [34mupdated_at[39m: "[32m2022-09-30 03:12:50[39m",
+         [34mpublished_at[39m: [36mnull[39m,
+       },
+       [34;4mApp\Models\Post[39;24m {#4570
+         [34mid[39m: [35m2[39m,
+         [34mtitle[39m: "[32mMy Second Post[39m",
+         [34mexcerpt[39m: "[32mProin euismod velit id bibendum dignissim. Morbi non odio blandit massa fringilla convallis.[39m",
+         [34mbody[39m: "[32mProin euismod velit id bibendum dignissim. Morbi non odio blandit massa fringilla convallis. Vestibulum scelerisque bibendum est id rhoncus. Aenean fermentum placerat augue vel semper. Vivamus condimentum condimentum quam vel accumsan. Praesent lobortis tellus sed quam venenatis laoreet. Nunc aliquet, mi vitae pretium ornare, est elit sollicitudin erat, interdum commodo sapien mi nec nisi. Pellentesque efficitur vehicula aliquet. Aenean ut sem dui.[39m",
+         [34mcreated_at[39m: "[32m2022-09-30 03:28:53[39m",
+         [34mupdated_at[39m: "[32m2022-09-30 03:28:53[39m",
+         [34mpublished_at[39m: [36mnull[39m,
+       },
+       [34;4mApp\Models\Post[39;24m {#4571
+         [34mid[39m: [35m3[39m,
+         [34mtitle[39m: "[32mMy Third Post[39m",
+         [34mexcerpt[39m: "[32mNulla vel diam eget nisi vestibulum accumsan. Aliquam vel tincidunt lectus.[39m",
+         [34mbody[39m: "[32mNulla vel diam eget nisi vestibulum accumsan. Aliquam vel tincidunt lectus. Aliquam quis sodales tellus. Nunc ultricies et lacus a egestas. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur vitae ipsum elit. Donec at augue ultrices, suscipit purus et, posuere diam. Suspendisse potenti. Integer ultricies nec sapien nec scelerisque. Quisque gravida finibus risus, pretium auctor quam ullamcorper vel. In iaculis molestie aliquet. Etiam rhoncus rhoncus augue, et ultrices massa maximus non. Sed fringilla nulla lectus, ac rhoncus quam placerat ut.[39m",
+         [34mcreated_at[39m: "[32m2022-09-30 03:30:46[39m",
+         [34mupdated_at[39m: "[32m2022-09-30 03:30:46[39m",
+         [34mpublished_at[39m: [36mnull[39m,
+       },
+       [34;4mApp\Models\Post[39;24m {#4572
+         [34mid[39m: [35m4[39m,
+         [34mtitle[39m: "[32mMy Fourth Post[39m",
+         [34mexcerpt[39m: "[32mCurabitur ullamcorper vulputate sagittis. In hac habitasse platea dictumst.[39m",
+         [34mbody[39m: "[32mCurabitur ullamcorper vulputate sagittis. In hac habitasse platea dictumst. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum iaculis libero neque. Suspendisse et nulla mauris. Donec mauris velit, convallis sed mollis vel, euismod at lacus. Vivamus eu ante blandit, feugiat lorem id, viverra ex. In hac habitasse platea dictumst. Pellentesque pretium sed lorem nec laoreet. Proin rutrum ullamcorper viverra. In at varius risus.[39m",
+         [34mcreated_at[39m: "[32m2022-09-30 03:32:00[39m",
+         [34mupdated_at[39m: "[32m2022-09-30 03:32:00[39m",
+         [34mpublished_at[39m: [36mnull[39m,
+       },
+       [34;4mApp\Models\Post[39;24m {#4573
+         [34mid[39m: [35m5[39m,
+         [34mtitle[39m: "[32mMy Fifth Post[39m",
+         [34mexcerpt[39m: "[32mNullam at velit at nibh sodales scelerisque sit amet vitae lectus. Aliquam pulvinar diam in arcu suscipit ullamcorper.[39m",
+         [34mbody[39m: "[32mNullam at velit at nibh sodales scelerisque sit amet vitae lectus. Aliquam pulvinar diam in arcu suscipit ullamcorper. Praesent viverra auctor ultricies. Nullam at nunc nec ipsum consequat euismod ut non felis. Aliquam vitae elementum mauris. Fusce fringilla mi sed est pellentesque, sollicitudin accumsan sapien accumsan. Etiam id felis et nisl aliquam imperdiet eu vel sapien. Integer consequat pellentesque egestas. Vivamus suscipit gravida placerat. In sit amet egestas quam. In in varius metus. Proin ornare auctor condimentum.[39m",
+         [34mcreated_at[39m: "[32m2022-09-30 03:33:11[39m",
+         [34mupdated_at[39m: "[32m2022-09-30 03:33:11[39m",
+         [34mpublished_at[39m: [36mnull[39m,
+       },
+     ],
+   }
+
