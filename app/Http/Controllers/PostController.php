@@ -8,6 +8,7 @@ use Illuminate\Http\Request;
 use Illuminate\Validation\Rule;
 use Symfony\Component\HttpFoundation\Response;
 use \Illuminate\Validation\Rules\Exists;
+use Illuminate\Http\Concerns\InteractsWithInput;
 
 class PostController extends Controller
 {
@@ -16,8 +17,8 @@ class PostController extends Controller
 
         return view('posts.index', [
             'posts' => Post::latest()->filter(
-                        request(['search', 'category', 'author'])
-                    )->paginate(6)->withQueryString()
+                request(['search', 'category', 'author'])
+            )->paginate(6)->withQueryString()
         ]);
     }
 
@@ -35,6 +36,9 @@ class PostController extends Controller
 
     public function store()
     {
+        $path = request()->file('thumbnail')->store('thumbnails');
+        return 'Done: ' . $path;
+
         // $attributes = request()->validate([
         //     'title' => 'required',
         //     'slug' => ['required', Rule::unique('posts', 'slug')],
@@ -49,6 +53,6 @@ class PostController extends Controller
 
         // return redirect('/');
 
-        ddd(request()->all());
     }
+
 }
