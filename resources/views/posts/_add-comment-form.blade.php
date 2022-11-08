@@ -11,12 +11,14 @@
 
         </header>
 
+        <x-form.error name="body"></x-form.error>
+
         @error('body')
         <p class="text-sx text-red-500 ml-10 mt-2">{{ $message }}</p>
         @enderror
 
         <div class="flex justify-end mt-2">
-            <x-submit-button>Submit</x-submit-button>
+            <x-form.button>Submit</x-form.button>
         </div>
     </form>
 </x-panel>

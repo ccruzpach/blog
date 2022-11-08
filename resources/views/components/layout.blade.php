@@ -25,12 +25,26 @@
             <div class="mt-8 md:mt-0 ml-auto flex items-center">
 
                 @auth
-                <span class="ml-4 text-xs font-bold"> Welcome, {{ auth()->user()->name }}</span>
 
-                <form method="POST" action="/logout" class="ml-4 text-xs font-semibold text-blue-500">
-                    @csrf
-                    <button type="submit">Log Out</button>
-                </form>
+                <x-dropdown>
+                    <x-slot name="trigger">
+                        <button class="ml-4 text-xs font-bold"> Welcome, {{ auth()->user()->name }}</button>
+                    </x-slot>
+                    
+                    <x-dropdown-item href="/admin/dashboard">Dashboard</x-dropdown>
+                    <x-dropdown-item href="/admin/posts/create" 
+                        :active="request()->is('admin/posts/create')">New Post</x-dropdown>
+                    <x-dropdown-item href="#" x-data="{}" @click.prevent="document.querySelector('#logout-form').submit()">Logout</x-dropdown>
+
+                    <form id="logout-form" method="POST" action="/logout" class="ml-4 text-xs font-semibold text-blue-500" class="hidden">
+                        @csrf
+                    </form>
+
+                </x-dropdown>
+
+                
+
+               
                 @else
                 <a href="/register" class="ml-4 text-xs font-bold uppercase">Register</a>
                 <a href="/login" class="ml-4 text-xs font-bold uppercase">Log In</a>

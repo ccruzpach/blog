@@ -23,5 +23,4 @@
         </div>
     </div>
 
-    <a href="admin/posts/create" class="text-blue-500">Publish Post</a>
 </header>
