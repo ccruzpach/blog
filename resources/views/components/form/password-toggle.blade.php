@@ -1,0 +1,1 @@
+<input type="checkbox" onclick="togglePassword()" class="mt-4"> Show Password
