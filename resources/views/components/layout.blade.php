@@ -31,7 +31,7 @@
                         <button class="ml-4 text-xs font-bold"> Welcome, {{ auth()->user()->name }}</button>
                     </x-slot>
                     
-                    <x-dropdown-item href="/admin/dashboard">Dashboard</x-dropdown>
+                    <x-dropdown-item href="/admin/posts" :active="request()->is('admin/posts')">Dashboard</x-dropdown>
                     <x-dropdown-item href="/admin/posts/create" 
                         :active="request()->is('admin/posts/create')">New Post</x-dropdown>
                     <x-dropdown-item href="#" x-data="{}" @click.prevent="document.querySelector('#logout-form').submit()">Logout</x-dropdown>

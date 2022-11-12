@@ -4,7 +4,12 @@
 
     <x-form.label name="{{ $name }}" />
 
-    <input class="grow p-2 focus:outline-none focus:ring  border border-gray-200 rounded-l w-full w-full" name="{{ $name }}" id="{{ $name }}" value="{{ old($name) }}" {{ $attributes }} required>
+    <input class="focus:outline-none focus:ring  border border-gray-200 p-2 rounded-l w-full"
+        name="{{ $name }}"
+        id="{{ $name }}"
+        required
+        {{ $attributes(['value' => old($name)]) }}
+        >
 
     <x-form.error name="{{ $name }}" />
 
